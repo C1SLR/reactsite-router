@@ -8,6 +8,8 @@ import Search from "../search box/Search";
 import Button from "../button/Button";
 import ExploreItem from "../explore item/ExploreItem";
 import Rental_Reveiws from "../rental reveiws/RentalReveiws";
+import Cards from "../cards/Cards";
+import homeCards from "../cards/data";
 function Home() {
   return (
     <>
@@ -77,6 +79,21 @@ function Home() {
         </div>
       </section>
       <ExploreItem />
+      {/* This maps over the homeCards array and renders a Cards component for each item */}
+      {homeCards.map(card => (
+        <Cards 
+          key={card.id} 
+          heading={card.heading}
+          paragraph={card.paragraph}
+          linkTo={card.linkTo}
+          linkText={card.linkText}
+          buttonLink={card.buttonLink}
+          buttonText={card.buttonText}
+          imageSrc={card.imageSrc}
+          imageAlt={card.imageAlt}
+          layout={card.layout}
+        />
+      ))}
       <Rental_Reveiws />
     </>
   );
