@@ -2,7 +2,7 @@ import React from "react";
 
 function Search() {
   return (
-    <div className="border flex justify-center">
+    <div className="flex justify-center">
       <input
         type="search"
         placeholder="Search Here..."
