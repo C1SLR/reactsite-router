@@ -90,6 +90,7 @@ function Home() {
           buttonLink={card.buttonLink}
           buttonText={card.buttonText}
           imageSrc={card.imageSrc}
+          imageMobileSrc={card.imageMobileSrc}
           imageAlt={card.imageAlt}
           layout={card.layout}
         />

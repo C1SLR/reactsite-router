@@ -13,7 +13,7 @@ function SignIn() {
             <img src={logo} alt="logo" className="pb-30 pt-10" />
           </Link>
         </div>
-        <div className="lg:w-4/12 lg:left-4/12 absolute top-2/12 left-3/12 flex justify-center bg-white w-6/12 shadow-lg rounded-lg">
+        <div className="md:left-[25%] md:w-6/12 absolute top-2/12 left-5 flex justify-center bg-white shadow-lg rounded-lg w-11/12">
           <div className="w-10/12">
             <div>
               <h1 className="text-2xl font-semibold text-center py-5">

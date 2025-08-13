@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Header />
-      {/* This is the crucial change: Outlet renders the currently matched child page */}
       <Outlet />
       <Footer />
     </>

@@ -23,7 +23,7 @@ function Cards({
         }`}
       >
         {}
-        <div className="md:w-1/2">
+        <div className="lg:border lg:pt-20 md:w-1/2">
           <h2 className="font-bold text-2xl mb-5">{heading}</h2>
           <p className="text-gray-400">{paragraph}</p>
           {}
@@ -46,7 +46,7 @@ function Cards({
 
         {}
         <div className="md:w-1/3">
-          <img src={imageSrc} alt={imageAlt} className="w-full" />
+          <img src={imageSrc} alt={imageAlt} className="md:flex w-full hidden" />
           <img
             src={imageMobileSrc}
             alt={imageAlt}
