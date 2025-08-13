@@ -23,7 +23,7 @@ function Cards({
         }`}
       >
         {}
-        <div className="lg:border lg:pt-20 md:w-1/2">
+        <div className="lg:pt-20 md:w-1/2">
           <h2 className="font-bold text-2xl mb-5">{heading}</h2>
           <p className="text-gray-400">{paragraph}</p>
           {}
